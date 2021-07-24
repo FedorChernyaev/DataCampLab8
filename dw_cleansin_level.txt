@@ -1,0 +1,14 @@
+CREATE OR REPLACE PACKAGE DW_CL.pkg_dw_cl
+
+AS
+  
+   PROCEDURE load_sa_customers;
+
+   PROCEDURE load_sa_sales;
+
+   PROCEDURE load_sa_employee;
+
+   PROCEDURE load_sa_bikes;
+
+   
+END;

@@ -1,0 +1,20 @@
+CREATE OR REPLACE PACKAGE SAL_CL.pkg_star_cleansing_lv
+
+AS
+  
+   PROCEDURE load_st_employee;
+
+   PROCEDURE load_st_date;
+
+   PROCEDURE load_st_location;
+
+   PROCEDURE load_st_customer;
+   
+   PROCEDURE load_st_gen_periods;
+   
+   PROCEDURE load_st_bike;
+   
+   PROCEDURE load_st_sale;
+
+   
+END;

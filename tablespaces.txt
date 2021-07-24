@@ -1,0 +1,40 @@
+CREATE TABLESPACE  ts_sa_customers_data_01 datafile '/oracle/u02/oradata/DMORCL21DB/fchernyaev_db/ts_sa_customers_data_01.dat'
+SIZE 50M AUTOEXTEND ON NEXT 50M
+SEGMENT SPACE MANAGEMENT AUTO;
+
+
+CREATE TABLESPACE  ts_sa_sales_data_01 datafile '/oracle/u02/oradata/DMORCL21DB/fchernyaev_db/ts_sa_sales_data_01.dat'
+SIZE 50M AUTOEXTEND ON NEXT 50M
+SEGMENT SPACE MANAGEMENT AUTO;
+
+
+CREATE TABLESPACE  ts_sa_employee_data_01 datafile '/oracle/u02/oradata/DMORCL21DB/fchernyaev_db/ts_sa_employee_data_01.dat'
+SIZE 50M AUTOEXTEND ON NEXT 50M
+SEGMENT SPACE MANAGEMENT AUTO;
+
+
+CREATE TABLESPACE  ts_sa_bikes_data_01 datafile '/oracle/u02/oradata/DMORCL21DB/fchernyaev_db/ts_sa_bikes_data_01.dat'
+SIZE 50M AUTOEXTEND ON NEXT 50M
+SEGMENT SPACE MANAGEMENT AUTO;
+
+CREATE TABLESPACE  ts_dw_cl datafile '/oracle/u02/oradata/DMORCL21DB/fchernyaev_db/ts_dw_cl.dat'
+SIZE 50M AUTOEXTEND ON NEXT 50M
+SEGMENT SPACE MANAGEMENT AUTO;
+
+CREATE TABLESPACE  ts_dw_data datafile '/oracle/u02/oradata/DMORCL21DB/fchernyaev_db/ts_dw_data_01.dat'
+SIZE 50M AUTOEXTEND ON NEXT 50M
+SEGMENT SPACE MANAGEMENT AUTO;
+
+
+CREATE TABLESPACE  ts_sal_dw_cl datafile '/oracle/u02/oradata/DMORCL21DB/fchernyaev_db/ts_sal_dw_cl.dat'
+SIZE 50M AUTOEXTEND ON NEXT 50M
+SEGMENT SPACE MANAGEMENT AUTO;
+
+CREATE TABLESPACE  ts_sal_cl datafile '/oracle/u02/oradata/DMORCL21DB/fchernyaev_db/ts_sal_cl.dat'
+SIZE 50M AUTOEXTEND ON NEXT 50M
+SEGMENT SPACE MANAGEMENT AUTO;
+
+
+CREATE TABLESPACE  ts_sal_data datafile '/oracle/u02/oradata/DMORCL21DB/fchernyaev_db/ts_sal_data.dat'
+SIZE 50M AUTOEXTEND ON NEXT 50M
+SEGMENT SPACE MANAGEMENT AUTO;
